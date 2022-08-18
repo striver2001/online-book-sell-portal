@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Book Store</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fsimple-background.html&psig=AOvVaw21COJh46Z3H4uqWD_vqdC9&ust=1654461487091000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNi3nb7TlPgCFQAAAAAdAAAAABAJ');
+        
+        
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        font-style: oblique;
+        color: black;
+       
+    }
+
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+        border: 2px solid goldenrod;
+        padding: 3px;
+        border-radius: 13px;
+    
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    .wel {
+        display:block;
+        text-align: center;
+     font-size: 50px;
+      color:black;
+    
+
+    }
+    .wel h2{
+      border: 2px solid green;
+      padding: 10%;
+      
+    }
+    .comics{
+          text-align: center;;
+      }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo-new.png" alt="">
+            <hr>
+            <div>BooksWagon</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.html" >Home</a></li>
+
+                <li><a href="Category.html">Category</a></li>
+                <li><a href="#">Buy</a></li>
+                <li><a href="#">Sell</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <br>
+        <hr>
+   
+
+    <div class="comics">
+
+        <ul>
+            <li>
+                
+
+                <img id="1" src="img/comics/1.jpg"  >
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+            
+            <h2>Chacha chaudhay and the flying Scorpion</h2> </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <img id="1" src="img/comics/2.jpg"  >
+                <a href="https://www.amazon.in/Tuesdays-Morrie-young-greatest-lesson/dp/0751527378?ref_=Oct_d_otopr_d_1318064031&pd_rd_w=Sm9aq&content-id=amzn1.sym.f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_p=f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0751527378">
+
+            <h2>Vinland Saga</h2> </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+              
+
+                <img id="1" src="img/comics/3.jpg"  > 
+                <a href="https://www.amazon.in/Diary-Young-Girl-Anne-Frank/dp/8172345194?ref_=Oct_d_otopr_d_1318064031&pd_rd_w=Sm9aq&content-id=amzn1.sym.f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_p=f5d0d3e7-fe8a-4766-96ee-1c39e69d20b3&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=8172345194">
+            <h2>Great tale from Panchatantra </h2></a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                
+
+                <img id="1" src="img/comics/4.jpg"  >
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+            <h2>Best Friends</h2></a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img/comics/5.jpg"  >
+            <h2>Attack on titan</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img/comics/6.jpg"  >
+            <h2>Archie Giant Comic Hop</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img/comics/7.jpg"  >
+            <h2>India Dream </h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/8.jpg"  >
+            <h2>Rusty brown</h2> 
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/9.jpg"  >
+            <h2>Anya's Ghost</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/10.jpg"  ></a>
+            <h2>Dnaniel Dorendo</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/11.jpg"  >
+            <h2>JOJO'S Bizzare Adveture</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/12.jpg"  >
+            <h2>Dark Night Death Metal</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/13.jpg"  >
+            <h2> Berserk</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/14.jpg"  >
+            <h2>Slugfest</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/15.jpg"  >
+            <h2>Batman Curse of the White Knight</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/16.jpg"  >
+            <h2>Tinkle</h2>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.amazon.in/Brief-History-Time-Black-Holes/dp/0553175211?ref_=Oct_d_omwf_d_1318064031&pd_rd_w=ykbt3&content-id=amzn1.sym.434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_p=434d119d-9748-44f8-9f20-db43f557cf30&pf_rd_r=TBCV05S6SMH1D3M34TF0&pd_rd_wg=DaaQL&pd_rd_r=76e7f794-9d78-4895-baa4-6ffa2d69729c&pd_rd_i=0553175211">
+
+                <img id="1" src="img//comics/17.jpg"  >
+            <h2>SpiderMan Venom</h2>
+            </li>
+        </ul>
+       </div>
+   
+</body> 
+
+</html>

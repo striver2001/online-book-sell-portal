@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login portal</title>
+    <style>
+        body {
+            background: url('img/login2.jpg');
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            
+
+        }
+
+        .container {
+            display: block;
+            width: 233px;
+            margin: auto;
+           padding: 75px;
+           font-size: 20px;
+        }
+
+        input {
+            display: block;
+        }
+
+        input[type='password'] {
+            color: yellow;
+            border: 4px solid black;
+            
+        }
+
+       
+        
+        input[type='mobile'] {
+            color: yellow;
+            border: 4px solid black;
+        }
+
+        /* This will apply css for third child */
+        /* li:nth-child(3){
+        color: cyan;
+    }
+
+    li:nth-child(2n+0){
+        color: red;
+    } */
+        /* 
+        li:nth-child(3n+3) {
+            color: red;
+        } */
+
+        /* Odd child */
+        /* li:nth-child(odd){
+        background-color: yellow;
+    } */
+
+        /* Even child */
+        /* li:nth-child(even) {
+            background-color: yellow;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bookly.in</h2>
+        <form action="" class="form-control">
+            <label for="psw"><b>Mobile number</b></label>
+            <input type="mobile" placeholder="Enter Mobile Number" required>
+            <!-- <input type="email" placeholder="Enter your email"> -->
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+           <li><a href="home.html">Submit</a></li>
+
+           
+
+        </form>
+
+    </div>
+</body>
+
+</html>
